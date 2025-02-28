@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.multipagelab.fragments.MainFragment"
+        android:label="MultiPageApp"
+        tools:layout="@layout/fragment_main" />
+
+    <fragment
+        android:id="@+id/intentFragment"
+        android:name="com.example.multipagelab.fragments.IntentFragment"
+        android:label="Intent"
+        tools:layout="@layout/fragment_intent" />
+
+    <fragment
+        android:id="@+id/broadcastFragment"
+        android:name="com.example.multipagelab.fragments.BroadcastFragment"
+        android:label="Broadcast"
+        tools:layout="@layout/fragment_broadcast" />
+
+    <fragment
+        android:id="@+id/musicFragment"
+        android:name="com.example.multipagelab.fragments.MusicFragment"
+        android:label="Music"
+        tools:layout="@layout/fragment_music" />
+
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.example.multipagelab.fragments.CalendarFragment"
+        android:label="Calendar"
+        tools:layout="@layout/fragment_calendar" />
+
+</navigation>
